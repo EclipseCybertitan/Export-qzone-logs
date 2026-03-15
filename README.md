@@ -4,8 +4,7 @@
 
 一句话定位：这是把“日志”变成“本地隐私 AI 日记/日志（RAG/知识库）可用输入”的前置条件工具。
 
-签名：月蚀之夜
-
+作者签名：月蚀之夜
 作者联系邮箱：tasks-09swapper@icloud.com
 
 English README: see `README.en.md`.
