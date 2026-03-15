@@ -1,0 +1,26 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
+
+# Never commit cookies or exports
+qzone_cookie.txt
+cookie.txt
+cookie*.txt
+exports/
+out/
+output/
+*.log
+
+# Local data (examples only)
+*.db
+*.sqlite
+*.sqlite3
+*.xlsx
+*.csv
+
