@@ -5,6 +5,7 @@
 一句话定位：这是把“日志”变成“本地隐私 AI 日记/日志（RAG/知识库）可用输入”的前置条件工具。
 
 作者签名：月蚀之夜
+
 作者联系邮箱：tasks-09swapper@icloud.com
 
 English README: see `README.en.md`.
@@ -39,7 +40,7 @@ pipx install .
 p_skey=...; skey=...; uin=o<UIN>; p_uin=o<UIN>; pt4_token=...;
 ```
 
-必须包含 `skey` 或 `p_skey`，用于计算 `g_tk`。
+[必须]包含 `skey` 或 `p_skey`，用于计算 `g_tk`。
 
 ### 2) 导出日志为纯文本
 
@@ -78,7 +79,7 @@ qzone-text-exporter postprocess \
 
 - `index_quality.csv`：`class,body_len,filename,blog_id`
 
-## 经验坑位（开源价值点）
+## 经验坑位（价值点）2026年3月;PC环境/MAC+沙发雷浏览器
 
 - **端点/路由**：日志列表常见用 `get_abs`，正文用 `blog_output_data`；不同域名/代理链可能返回 403/404，需要 fallback。
 - **JSONP 解析**：不要用过严正则，推荐“首个 `(` 到最后一个 `)`”提取 JSON。
@@ -86,7 +87,7 @@ qzone-text-exporter postprocess \
 - **安全工作流**：cookie 只进本地文件；仓库 `.gitignore` 强制屏蔽；issue/PR 不要贴 cookie。
 - **后处理定位**：导出只是第一步；后处理让内容更适合作为本地隐私 AI 日记/日志的输入资产。
 
-## 生态与竞品（为什么还值得做）
+## 生态
 
 同类项目/库已经存在，例如：
 
